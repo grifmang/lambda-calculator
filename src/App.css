@@ -19,4 +19,25 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+
+button {
+    background: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    font-size: 150%;
+    margin: 10px;
+}
+
+.operator {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
